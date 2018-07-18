@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23528" started-at="2018-07-18T19:23:54Z" finished-at="2018-07-18T19:24:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23528" started-at="2018-07-18T19:23:54Z" finished-at="2018-07-18T19:24:17Z">
+      <class name="br.com.brq.teste.LogaItau">
+        <test-method status="PASS" signature="setup()[pri:0, instance:br.com.brq.teste.LogaItau@b684286]" name="setup" is-config="true" duration-ms="5597" started-at="2018-07-18T16:23:54Z" finished-at="2018-07-18T16:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:br.com.brq.teste.LogaItau@b684286]" name="run" duration-ms="13910" started-at="2018-07-18T16:23:59Z" finished-at="2018-07-18T16:24:13Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element <a class="tecla left campoTeclado" href="javascript:;"> is not clickable at point (597,144.5) because another element <div class="blockUI blockOverlay"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NBBV027452', ip: '10.2.71.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\matheussouza\AppData\Local\Temp\rust_mozprofile.8JNKHAzaNtAH, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=61.0.1, platformVersion=10.0, moz:processID=14036.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=true}]
+Session ID: 5c3a8a6b-61e4-4ef4-947c-3528c80ed49d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element <a class="tecla left campoTeclado" href="javascript:;"> is not clickable at point (597,144.5) because another element <div class="blockUI blockOverlay"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NBBV027452', ip: '10.2.71.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\matheussouza\AppData\Local\Temp\rust_mozprofile.8JNKHAzaNtAH, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=61.0.1, platformVersion=10.0, moz:processID=14036.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=true}]
+Session ID: 5c3a8a6b-61e4-4ef4-947c-3528c80ed49d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at br.com.brq.ElementoWebUtils.click(ElementoWebUtils.java:107)
+	at br.com.brq.ElementoWebUtils.elementoWebClica(ElementoWebUtils.java:204)
+	at br.com.brq.pom.TelaDeLogin.preencheSenha(TelaDeLogin.java:47)
+	at br.com.brq.teste.LogaItau.run(LogaItau.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="downTest()[pri:0, instance:br.com.brq.teste.LogaItau@b684286]" name="downTest" is-config="true" duration-ms="4004" started-at="2018-07-18T16:24:13Z" finished-at="2018-07-18T16:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downTest -->
+      </class> <!-- br.com.brq.teste.LogaItau -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

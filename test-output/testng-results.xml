@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43058" started-at="2018-07-18T18:48:59Z" finished-at="2018-07-18T18:49:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43058" started-at="2018-07-18T18:48:59Z" finished-at="2018-07-18T18:49:42Z">
+      <class name="br.com.brq.teste.LogaItau">
+        <test-method status="PASS" signature="setup()[pri:0, instance:br.com.brq.teste.LogaItau@1afd44cb]" name="setup" is-config="true" duration-ms="5605" started-at="2018-07-18T18:48:59Z" finished-at="2018-07-18T18:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="run()[pri:0, instance:br.com.brq.teste.LogaItau@1afd44cb]" name="run" duration-ms="33713" started-at="2018-07-18T18:49:05Z" finished-at="2018-07-18T18:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="downTest()[pri:0, instance:br.com.brq.teste.LogaItau@1afd44cb]" name="downTest" is-config="true" duration-ms="3713" started-at="2018-07-18T18:49:38Z" finished-at="2018-07-18T18:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downTest -->
+      </class> <!-- br.com.brq.teste.LogaItau -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
